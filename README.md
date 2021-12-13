@@ -1,11 +1,13 @@
 # Assesment I
 
-Como parte del proceso educativo impartido en el progrma TOP Fullstack de Make It Real, hemos destinado durante el transcurso del mismo, una evaluacion que nos ayude a verificar y validar las habilidades adquiridas de los estudiantes.
+Como parte del proceso educativo impartido en el programa TOP Fullstack de Make It Real, hemos destinado durante el transcurso del mismo, una evaluación que nos ayude a verificar y validar las habilidades adquiridas de los estudiantes.
 
-La evaluacion consta de dos partes; la primera es la creacion de un proyecto en react que consta de varios pasos y la segunda son preguntas tecnicas que requiren de una sustentacion escrita.
+Este assestment tiene una fecha límite de entrega para el viernes 24 diciembre.
+
+La evaluación consta de dos partes; la primera es la creación de un proyecto en react que consta de varios pasos y la segunda son preguntas técnicas que requieren de una sustentación escrita.
 
 ### Objectivo
-- Validar las habilidades tecnicas de los estudiantes adquiridas durante estas semanas.
+- Validar las habilidades técnicas de los estudiantes adquiridas durante estas semanas.
 - Verificar que los temas destinados a ser dictados en clase previos al `Assesment I` se cumplieran.
 
 
@@ -16,23 +18,24 @@ La evaluacion consta de dos partes; la primera es la creacion de un proyecto en 
 
 ## 1. Proyecto
 
-Construir una aplicacion web la cual constará de tres paginas principalmente, la aplicación debe tener un menú para permitir al usuario navegar.
+Construir una aplicación web la cual consta de tres páginas principalmente, la aplicación debe tener un menú para permitir al usuario navegar.
 
 - Home
 - Product Detail
 - About
 
-#### Requeriemientos
+#### Requerimientos
 
 - Usar flexbox CSS.
 - El proyecto debe tener configurado ESLint y el Prettier y que tus archivos no tengan problemas con estos.
-- El codigo del proyecto debe estar en un repositorio publico de tu autoria.
+- El código del proyecto debe estar en un repositorio público de tu autoría.
 - Bonus: Implementar tu CSS con BEM o módulos de CSS.
+- La fecha limite para entregar todo el assesment, será el viernes 24 diciembre a las 13:00
 
 ### Home Page
-Esta pagina tendra la responsabilidad de listar una serie de productos que debes obtener consumiento la api de [Fake Store API](https://fakestoreapi.com/).
+Esta página tendrá la responsabilidad de listar una serie de productos que debes obtener consumiendo la api de [Fake Store API](https://fakestoreapi.com/).
 
-Para mostrar estos productos debes crear un componente llamada `ProductCard` el cual tendra como propiedades `id`, `title`, `image` las cuales tienen que estar renderizadas. Este componente tiene la particularidad de permitir ir al detalle del producto en otra pagina (`http://localhost:3000/detalle/:id`) en la cual se debe renderizar toda la informacion del productoen detallede forma visualmente agradable.
+Para mostrar estos productos debes crear un componente llamada `ProductCard` el cual tendrá como propiedades `id`, `title`, `image` las cuales tienen que estar renderizadas. Este componente tiene la particularidad de permitir ir al detalle del producto en otra página (`http://localhost:3000/detalle/:id`) en la cual se debe renderizar toda la información del producto en detalle de forma visualmente agradable.
 
 ```json
 {
@@ -49,26 +52,26 @@ Para mostrar estos productos debes crear un componente llamada `ProductCard` el 
 }
 ```
 
-Ademas el componente `ProductCard` solo debe permitir ir a la pagina de detalle siempre y cuando un tiempo random configurado de forma aleatoria no se haya vencido. El tiempo restante debe mostrarse en pantalla como una cuenta regresiva para actualizarse cada segundo.
+Además el componente `ProductCard` solo debe permitir ir a la página de detalle siempre y cuando un tiempo random configurado de forma aleatoria no se haya vencido. El tiempo restante debe mostrarse en pantalla como una cuenta regresiva para actualizarse cada segundo.
 
 **Ejemplos**:
 
-- `ProductCard-1`: Tiene un tiempo maximo para ir al detalle de **1 min**, cuando el tiempo finalice este `Card` no debe permitir realizar una navegacion.
-- `ProductCard-2`: Tiene un tiempo maximo para ir al detalle de **3 min**, cuando el tiempo finalice este `Card` no debe permitir realizar una navegacion.
-- `ProductCard-3`: Tiene un tiempo maximo para ir al detalle de **1 min**, cuando el tiempo finalice este `Card` no debe permitir realizar una navegacion.
+- `ProductCard-1`: Tiene un tiempo máximo para ir al detalle de **1 min**, cuando el tiempo finalice este `Card` no debe permitir realizar una navegación.
+- `ProductCard-2`: Tiene un tiempo máximo para ir al detalle de **3 min**, cuando el tiempo finalice este `Card` no debe permitir realizar una navegación.
+- `ProductCard-3`: Tiene un tiempo máximo para ir al detalle de **1 min**, cuando el tiempo finalice este `Card` no debe permitir realizar una navegación.
 
 Este es un ejemplo aproximado de lo que debes hacer:
 
 <img src="./assets/countdown.gif">
 
 ### Product detail Page
-Renderizar la informacion del producto y permitir navegar a la pagina de inicio o la del perfil.
+Renderizar la información del producto y permitir navegar a la página de inicio o la del perfil.
 
 ### About Page
-Debes mostrar en esta pantalla tu informacion personal:
+Debes mostrar en esta pantalla tu información personal:
 
 - Nombre
-- Descripcion
+- Descripción
 - Imagen
 - Lista de 3 cosas que hayas aprendido en este programa
 - Correo
@@ -77,10 +80,10 @@ Debes mostrar en esta pantalla tu informacion personal:
 
 ## 2. Preguntas
 - Cuáles son las ceremonias más importantes de un Sprint y cuál es la idea de cada una?
-- Qué son los Wireframes? Nombra al menos una herramienta que podamos utilizar.
-- Explicar la diferencia entre var, let y const. Y dar un ejemplo en qué caso se utilizaría.
+- ¿Qué son los Wireframes? Nombra al menos una herramienta que podamos utilizar.
+- Explicar la diferencia entre var, let y const. Y dar un ejemplo en qué caso se utilizará.
 - Organizar una serie de elementos con Flebox (mostrar el resultado esperado).
-- ¿Cuales son los tres comandos que se pueden utilizar para crear una nueva rama llamada `rama-1`?
+- ¿Cuáles son los tres comandos que se pueden utilizar para crear una nueva rama llamada `rama-1`?
 - Explicar la diferencia entre git merge y git rebase.
 - ¿Cuál es la diferencia entre Pull Request (PR) y el comando `git pull`?
 - ¿Qué es el Virtual DOM?
