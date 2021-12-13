@@ -79,14 +79,14 @@ Debes mostrar en esta pantalla tu información personal:
 
 
 ## 2. Preguntas
-- Cuáles son las ceremonias más importantes de un Sprint y cuál es la idea de cada una?
-- ¿Qué son los Wireframes? Nombra al menos una herramienta que podamos utilizar.
-- Explicar la diferencia entre var, let y const. Y dar un ejemplo en qué caso se utilizará.
-- Organizar una serie de elementos con Flebox (mostrar el resultado esperado).
-- ¿Cuáles son los tres comandos que se pueden utilizar para crear una nueva rama llamada `rama-1`?
-- Explicar la diferencia entre git merge y git rebase.
-- ¿Cuál es la diferencia entre Pull Request (PR) y el comando `git pull`?
-- ¿Qué es el Virtual DOM?
-- Darles un CodeSandbox y en la respuesta que digan cómo lo arreglarían.
+1. ¿Cuáles son las ceremonias más importantes de un Sprint y cuál es la idea de cada una?
+2. ¿Qué son los Wireframes? Nombra al menos una herramienta que podamos utilizar.
+3. Explicar la diferencia entre `var`, `let` y `const`. Y dar un ejemplo en qué caso se utilizará.
+4. ¿Cuáles son los tres comandos que se pueden utilizar para crear una nueva rama llamada `rama-1`?
+5. Explicar la diferencia entre git merge y git rebase.
+6. ¿Cuál es la diferencia entre Pull Request (PR) y el comando `git pull`?
+7. ¿Qué es el Virtual DOM?
+8. Dado el siguiente [codePen](https://codepen.io/cristian-makeitreal/pen/NWadqqa?editors=1100), el cual solo tiene un HTML, por medio de css llegar a esta respuesta. [Imagen](./assets/services-section.gif). (Para mostrar los servicios debes usar CSS Flexbox o CSS Grid).
+
 
 
