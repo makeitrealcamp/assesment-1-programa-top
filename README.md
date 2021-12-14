@@ -1,38 +1,30 @@
 # Assesment I
 
-Como parte del proceso educativo impartido en el programa TOP Fullstack de Make It Real, hemos destinado durante el transcurso del mismo, una evaluación que nos ayude a verificar y validar las habilidades adquiridas de los estudiantes.
+El objetivo de esta misión es poner en práctica lo que has aprendido en el programa. Los temas que se cubrirán son: Scrum, Git, HTML y CSS, JavaScript y React.
 
-Este assestment tiene una fecha límite de entrega para el viernes 24 diciembre.
+La misión consta de dos partes: primero deberás construir un proyecto en React y después deberás responder una serie de preguntas. **En el reporte de la misión deberás agregar el link al repositorio del proyecto y las respuestas a las preguntas.**
 
-La evaluación consta de dos partes; la primera es la creación de un proyecto en react que consta de varios pasos y la segunda son preguntas técnicas que requieren de una sustentación escrita.
-
-### Objectivo
-- Validar las habilidades técnicas de los estudiantes adquiridas durante estas semanas.
-- Verificar que los temas destinados a ser dictados en clase previos al `Assesment I` se cumplieran.
-
-
-### Materiales de apoyo
-- [Guia de React - Make It Real](https://guias.makeitreal.camp/react)
-- [Documentacion oficial de React](https://reactjs.org/docs/getting-started.html)
-
+La fecha limite para la entrega será el **viernes 24 de Diciembre**.
 
 ## 1. Proyecto
 
-Construir una aplicación web la cual consta de tres páginas principalmente, la aplicación debe tener un menú para permitir al usuario navegar.
+Construir una aplicación web la cual consta de tres páginas:
 
 - Home
 - Product Detail
 - About
 
-#### Requerimientos
+La aplicación debe tener un menú que le permita al usuario navegar entre estas páginas.
 
-- Usar flexbox CSS.
+### Requerimientos
+
+- Usar Flexbox CSS.
 - El proyecto debe tener configurado ESLint y el Prettier y que tus archivos no tengan problemas con estos.
 - El código del proyecto debe estar en un repositorio público de tu autoría.
 - Bonus: Implementar tu CSS con BEM o módulos de CSS.
-- La fecha limite para entregar todo el assesment, será el viernes 24 diciembre a las 13:00
 
 ### Home Page
+
 Esta página tendrá la responsabilidad de listar una serie de productos que debes obtener consumiendo la api de [Fake Store API](https://fakestoreapi.com/).
 
 Para mostrar estos productos debes crear un componente llamada `ProductCard` el cual tendrá como propiedades `id`, `title`, `image` las cuales tienen que estar renderizadas. Este componente tiene la particularidad de permitir ir al detalle del producto en otra página (`http://localhost:3000/detalle/:id`) en la cual se debe renderizar toda la información del producto en detalle de forma visualmente agradable.
@@ -64,10 +56,12 @@ Este es un ejemplo aproximado de lo que debes hacer:
 
 <img src="./assets/countdown.gif">
 
-### Product detail Page
+### Product Detail Page
+
 Renderizar la información del producto y permitir navegar a la página de inicio o la del perfil.
 
 ### About Page
+
 Debes mostrar en esta pantalla tu información personal:
 
 - Nombre
@@ -75,10 +69,11 @@ Debes mostrar en esta pantalla tu información personal:
 - Imagen
 - Lista de 3 cosas que hayas aprendido en este programa
 - Correo
-- Link a tu github
+- Link a tu Github
 
 
 ## 2. Preguntas
+
 1. ¿Cuáles son las ceremonias más importantes de un Sprint y cuál es la idea de cada una?
 2. ¿Qué son los Wireframes? Nombra al menos una herramienta que podamos utilizar.
 3. Explicar la diferencia entre `var`, `let` y `const`. Y dar un ejemplo en qué caso se utilizará.
@@ -87,6 +82,3 @@ Debes mostrar en esta pantalla tu información personal:
 6. ¿Cuál es la diferencia entre Pull Request (PR) y el comando `git pull`?
 7. ¿Qué es el Virtual DOM?
 8. Dado el siguiente [codePen](https://codepen.io/cristian-makeitreal/pen/NWadqqa?editors=1100), el cual solo tiene un HTML, por medio de css llegar a esta respuesta. [Imagen](./assets/services-section.gif). (Para mostrar los servicios debes usar CSS Flexbox o CSS Grid).
-
-
-
