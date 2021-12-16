@@ -71,6 +71,14 @@ Debes mostrar en esta pantalla tu información personal:
 - Correo
 - Link a tu Github
 
+## ALTERNATIVA Proyecto (Programas TOP parciales)
+Escuchando a sus observaciones y todo el feedback dado, hemos decidido crear una alternativa para el punto 1 (proyecto) el cual consiste en hacer un ejercicio para generar un grid de NxN cuadriculas, como se ve en la imagen.
+
+<img src="./assets/grid.gif">
+
+La idea es simple, generar un grid de un determinado numero, deben ahcer uso del `useState`.
+
+Aca les dejamos el [codigo del ejemplo](https://codesandbox.io/s/color-grid-exercise-t3iwe) para que lo revisen y generen el enunciado si deciden usar esta alternativa.
 
 ## 2. Preguntas
 
